@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -121,10 +122,13 @@
 		      	var cell2 = row.insertCell(1);
 		      	cell1.innerHTML = document.getElementById("iname").value;
 		        cell2.innerHTML = document.getElementById("inumber").value;
-		        array.push([cell1.innerHTML,cell2.innerHTML]);
-		        selectTable()
-	        	document.getElementById("iname").value = "";
-		        document.getElementById("inumber").value = "";
+		        if(cell2.innerHTML<0){
+		        	document.getElementById("mytable").deleteRow(-1);
+		        }
+		        else array.push([cell1.innerHTML,cell2.innerHTML]);
+			    selectTable()
+		        document.getElementById("iname").value = "";
+			    document.getElementById("inumber").value = "";
 	     	}
 		}
 		
@@ -139,7 +143,11 @@
 	        xell5.innerHTML = document.getElementById("finalprice").value;
 	        a++; 
 	        x += Number(xell5.innerHTML);
-		  	document.getElementById("totalprice").value = x;
+	        if (xell2.innerHTML === "" || xell4.innerHTML === ""){
+	        	a--;
+	        	document.getElementById("maintable").deleteRow(-1);
+	        }
+	        else document.getElementById("totalprice").value = x;
 		  	document.getElementById("itemtext").value = "";
 	        document.getElementById("itemprice").value = "";
 	        document.getElementById("itemamount").value = "";
