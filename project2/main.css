@@ -1,0 +1,30 @@
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+tr:hover{background-color:#EEE;cursor: pointer}
+
+h1,h2,h4 {
+    text-align: center;
+}
+
+table,th,tr {
+    border: 1px solid black;
+    text-align: center; 
+}
+
+{
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+    height: 275px;
+}
