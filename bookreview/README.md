@@ -12,7 +12,8 @@ Create Environment or Virtual Environment of python=2.7 and activated it
 ### 2. Download and use the github files
 After that, download the file project files in your workspace:  
 	`$ cd /path/to/your/workspace`  
-    `$ git clone git://github.com/kirpit/django-sample-app.git projectname && cd projectname`    
+    `$ git clone git://github.com/ryanas97/book_review.git projectname && cd projectname`  
+OR Download the zip file and put them on your Django Project directory	
 	
 ### 3. Run syntax on cmd
 After that run the following syntax:  
