@@ -20,7 +20,7 @@ After that run the following syntax:
 	`$ py manage.py makemigrations`  
 	`$ py manage.py migrate`  
 	`$ py manage.py collectstatic`  
-	`$ py manage.py` test # Run the standard tests. These should all pass.    
+	`$ py manage.py test` # Run the standard tests. These should all pass.    
 	`$ py manage.py createsuperuser` # Create a superuser    
 	`$ py manage.py runserver 9000`  
 	
