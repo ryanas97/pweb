@@ -10,7 +10,7 @@ Once they log in, they will be able to search for books, leave reviews for indiv
 Create Environment or Virtual Environment of python=2.7 and activated it
 	
 ### 2. Download the app
-After that, download the django-sample-app project files in your workspace:  
+After that, download the file project files in your workspace:  
 	`$ cd /path/to/your/workspace`  
     `$ git clone git://github.com/kirpit/django-sample-app.git projectname && cd projectname`    
 	
