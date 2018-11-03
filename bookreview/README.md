@@ -15,7 +15,7 @@ After that, download the django-sample-app project files in your workspace:
     $ git clone git://github.com/kirpit/django-sample-app.git projectname && cd projectname
 	
 ### 3. Run syntax on cmd
-After that run the following syntax:
+After that run the following syntax:  
 	`$ pip install -r requirements.txt`  
 	`$ py manage.py makemigrations`  
 	`$ py manage.py migrate`  
