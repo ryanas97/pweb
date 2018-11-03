@@ -16,15 +16,14 @@ After that, download the django-sample-app project files in your workspace:
 	
 ### 3. Run syntax on cmd
 After that run the following syntax:
-	```
-	pip install -r requirements.txt
-	py manage.py makemigrations
-	py manage.py migrate
-	py manage.py collectstatic
-	py manage.py test # Run the standard tests. These should all pass.
-	py manage.py createsuperuser # Create a superuser 
-	py manage.py runserver 9000
-	```
+	`$ pip install -r requirements.txt`
+	`$ py manage.py makemigrations`
+	`$ py manage.py migrate`
+	`$ py manage.py collectstatic`
+	`$ py manage.py test # Run the standard tests. These should all pass.`
+	`$ py manage.py createsuperuser # Create a superuser`
+	`$ py manage.py runserver 9000`
+	
 ### 3. Open in the browser
 Run this command in your browser:
 	```
