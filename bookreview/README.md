@@ -4,7 +4,7 @@ In this project, you’ll build a book review website.
 Users will be able to register for your website and then log in using their username and password. 
 Once they log in, they will be able to search for books, leave reviews for individual books, and see the reviews made by other people.
 
-## Preparation
+## How to Run the Progran
 
 ### 1. virtualenv / virtualenvwrapper
 Create Environment or Virtual Environment of python=2.7 and activated it
@@ -25,7 +25,7 @@ After that run the following syntax:
 	`$ py manage.py runserver 9000`  
 	
 ### 4. Open in the browser
-Run this command in your browser:  
+Run this url in the browser:  
 	```
 	http://127.0.0.1:9000/
 	```
