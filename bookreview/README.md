@@ -6,10 +6,10 @@ Once they log in, they will be able to search for books, leave reviews for indiv
 
 ## How to Run the Progran
 
-### 1. virtualenv / virtualenvwrapper
+### 1. Make virtualenv / virtualenvwrapper
 Create Environment or Virtual Environment of python=2.7 and activated it
 	
-### 2. Download the app
+### 2. Download and use the github files
 After that, download the file project files in your workspace:  
 	`$ cd /path/to/your/workspace`  
     `$ git clone git://github.com/kirpit/django-sample-app.git projectname && cd projectname`    
