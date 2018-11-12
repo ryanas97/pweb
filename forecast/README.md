@@ -1,4 +1,4 @@
-## How to Run the Progran
+## How to Run the Program
 
 ### 1. Make virtualenv / virtualenvwrapper
 Create Environment or Virtual Environment of python=3.7 and activated it
@@ -14,9 +14,9 @@ OR Download the zip file and put them on your Django Project directory
 
 ### 4. Quick start
 Run this command on your cmd :  
-'$cd ezw'  
-'$export DARK_SKY_KEY={your Dark Sky API Key}'  
-'$python ezw_app.py'   
+`$cd ezw`  
+`$export DARK_SKY_KEY={your Dark Sky API Key}`  
+`$python ezw_app.py`   
 
 Running on http://127.0.0.1:5000/
 
